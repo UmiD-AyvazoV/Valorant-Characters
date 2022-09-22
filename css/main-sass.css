@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* background: linear-gradient(45deg, rgba(0, 0, 0, 0.808), rgba(238, 31, 31, 0.815)); */
+  background : linear-gradient(90deg, #523f7c, #226cef)
+}
+
+.form-view {
+  text-align: center;
+  margin-top: 4%;
+}
+.form-view .header {
+  font-size: 3rem;
+  font-style: italic;
+  color: beige;
+}
+.form-view form .search-input {
+  width: 25%;
+  padding: 8px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+}
+.form-view form .search-icon {
+  width: 3%;
+  padding: 8px;
+  font-size: 1.1rem;
+  border: none;
+  background-color: darkcyan;
+  cursor: pointer;
+}
+
+.general-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 20%;
+  text-align: center;
+  border-radius: 3%;
+  border: none;
+  margin: 2.5% 1%;
+  background-color: aliceblue;
+  color: navy;
+  font-style: italics;
+}
+.card .card-image {
+  width: 100%;
+  margin: 5px 0;
+}
+.card .hero-name {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin: 5% 0;
+}
+.card .ability {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.card .ability .ability-images {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: khaki;
+  padding: 3%;
+  margin: 5% 1.5%;
+}
